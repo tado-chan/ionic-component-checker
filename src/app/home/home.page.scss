@@ -70,3 +70,21 @@ ion-chip.chip-success-light {
 .card-section-label:first-child {
   margin-top: 0;
 }
+
+.toggle-card-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 16px;
+
+  span {
+    font-size: 14px;
+  }
+}
+
+.awesome-card {
+  display: flex;
+  gap: 16px;
+  align-items: flex-start;
+  justify-content: space-between;
+}
