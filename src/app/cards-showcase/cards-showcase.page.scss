@@ -4,6 +4,7 @@
   gap: 8px;
   margin-bottom: 8px;
   margin-top: 16px;
+  padding-left: 10px;
   font-size: 11px;
   font-weight: 700;
   text-transform: uppercase;
@@ -19,66 +20,18 @@
   margin-top: 0;
 }
 
-.card-actions {
-  display: flex;
-  gap: 4px;
-  padding-top: 0;
-}
-
-.price-title {
-  font-size: 32px;
-  font-weight: bold;
-  color: var(--ion-color-primary);
-
-  .price-period {
-    font-size: 16px;
-    color: var(--ion-color-medium);
-    font-weight: normal;
-  }
-}
-
-.product-header {
+.card-toggle {
   display: flex;
   justify-content: space-between;
-  align-items: flex-start;
-
-  .product-price {
-    font-size: 24px;
-    font-weight: bold;
-    color: var(--ion-color-primary);
-  }
 }
 
-.product-rating {
-  display: flex;
-  align-items: center;
-  gap: 4px;
-  margin-bottom: 8px;
-
-  .rating-text {
-    margin-left: 8px;
-    font-size: 14px;
-    color: var(--ion-color-medium);
-  }
-}
-
-.toggle-card-content {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 12px 16px;
-
-  span {
-    font-size: 14px;
-  }
-}
-
-.awesome-card {
-  display: flex;
+ion-card-content.card-toggle {
   gap: 16px;
   align-items: flex-start;
-  justify-content: space-between;
 }
 
-
-
+ion-card-subtitle.card-toggle {
+  align-items: center;
+  padding: 12px 16px;
+  font-size: 14px;
+}
