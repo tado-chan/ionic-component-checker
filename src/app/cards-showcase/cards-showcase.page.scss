@@ -77,3 +77,18 @@ ion-card-title.text-toggle {
     color: var(--ion-color-medium);
   }
 }
+
+// レスポンシブデザイン：Web版でカード幅を制限
+@media (min-width: 768px) {
+  ion-card {
+    max-width: 450px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .card-section-label {
+    max-width: 450px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
