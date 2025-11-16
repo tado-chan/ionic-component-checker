@@ -1,3 +1,7 @@
+ion-card {
+  border-radius: 16px;
+}
+
 .card-section-label {
   display: flex;
   align-items: center;
@@ -22,13 +26,12 @@
   justify-content: space-between;
 }
 
-ion-card-content{
+ion-card-content {
   gap: 16px;
 }
 
-ion-card-subtitle{
+ion-card-title.text-toggle {
   align-items: center;
-  padding: 12px 16px;
 }
 
 // ここから、工夫するやつ
