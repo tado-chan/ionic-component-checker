@@ -36,5 +36,217 @@
         <ion-toggle></ion-toggle>
       </ion-card-subtitle>
     </ion-card>
+    <div class="card-section-label">
+      <ion-icon name="image-outline"></ion-icon>
+      <span>IMAGE CARD</span>
+    </div>
+    <ion-card>
+      <img alt="Sample" src="https://ionicframework.com/docs/img/demos/card-media.png" />
+      <ion-card-header>
+        <ion-card-title>美しい風景</ion-card-title>
+        <ion-card-subtitle>旅行</ion-card-subtitle>
+      </ion-card-header>
+      <ion-card-content>
+        自然の美しさを感じる絶景スポット。心が癒される特別な場所です。
+      </ion-card-content>
+    </ion-card>
+    
+    <!-- Action Buttons Card -->
+    <div class="card-section-label">
+      <ion-icon name="hand-left-outline"></ion-icon>
+      <span>ACTION BUTTONS CARD</span>
+    </div>
+    <ion-card>
+      <ion-card-header>
+        <ion-card-title>新着記事</ion-card-title>
+        <ion-card-subtitle>2025年11月</ion-card-subtitle>
+      </ion-card-header>
+      <ion-card-content>
+        Ionic Frameworkの最新アップデートについて解説します。新機能や改善点をチェックしましょう。
+      </ion-card-content>
+      <ion-card-content class="card-actions">
+        <ion-button fill="clear" size="small">
+          <ion-icon slot="start" name="share-social-outline"></ion-icon>
+          シェア
+        </ion-button>
+        <ion-button fill="clear" size="small">
+          <ion-icon slot="start" name="bookmark-outline"></ion-icon>
+          保存
+        </ion-button>
+        <ion-button fill="clear" size="small">
+          <ion-icon slot="start" name="heart-outline"></ion-icon>
+          いいね
+        </ion-button>
+      </ion-card-content>
+    </ion-card>
+    
+    <!-- List Card -->
+    <div class="card-section-label">
+      <ion-icon name="list-circle-outline"></ion-icon>
+      <span>LIST CARD</span>
+    </div>
+    <ion-card>
+      <ion-card-header>
+        <ion-card-title>タスクリスト</ion-card-title>
+      </ion-card-header>
+      <ion-list>
+        <ion-item>
+          <ion-checkbox slot="start"></ion-checkbox>
+          <ion-label>デザインレビュー</ion-label>
+        </ion-item>
+        <ion-item>
+          <ion-checkbox slot="start" checked></ion-checkbox>
+          <ion-label>コード実装</ion-label>
+        </ion-item>
+        <ion-item>
+          <ion-checkbox slot="start"></ion-checkbox>
+          <ion-label>テスト実行</ion-label>
+        </ion-item>
+        <ion-item lines="none">
+          <ion-checkbox slot="start"></ion-checkbox>
+          <ion-label>デプロイ</ion-label>
+        </ion-item>
+      </ion-list>
+    </ion-card>
+    
+    <!-- Avatar Card -->
+    <div class="card-section-label">
+      <ion-icon name="person-circle-outline"></ion-icon>
+      <span>AVATAR CARD</span>
+    </div>
+    <ion-card>
+      <ion-item>
+        <ion-avatar slot="start">
+          <img alt="User" src="https://ionicframework.com/docs/img/demos/avatar.svg" />
+        </ion-avatar>
+        <ion-label>
+          <h2>田中 太郎</h2>
+          <p>2時間前</p>
+        </ion-label>
+      </ion-item>
+      <ion-card-content>
+        今日は素晴らしい一日でした！Ionicでアプリ開発が本当に楽しいです。みなさんもぜひ試してみてください。
+      </ion-card-content>
+      <ion-card-content class="card-actions">
+        <ion-button fill="clear" size="small">
+          <ion-icon slot="icon-only" name="thumbs-up-outline"></ion-icon>
+        </ion-button>
+        <ion-button fill="clear" size="small">
+          <ion-icon slot="icon-only" name="chatbubble-outline"></ion-icon>
+        </ion-button>
+        <ion-button fill="clear" size="small">
+          <ion-icon slot="icon-only" name="share-outline"></ion-icon>
+        </ion-button>
+      </ion-card-content>
+    </ion-card>
+    
+    <!-- Price Card -->
+    <div class="card-section-label">
+      <ion-icon name="pricetag-outline"></ion-icon>
+      <span>PRICE CARD</span>
+    </div>
+    <ion-card>
+      <ion-card-header>
+        <ion-card-subtitle>プレミアムプラン</ion-card-subtitle>
+        <ion-card-title class="price-title">¥2,980<span class="price-period">/月</span></ion-card-title>
+      </ion-card-header>
+      <ion-card-content>
+        <ion-list>
+          <ion-item lines="none">
+            <ion-icon name="checkmark-circle" slot="start" color="success"></ion-icon>
+            <ion-label>無制限のストレージ</ion-label>
+          </ion-item>
+          <ion-item lines="none">
+            <ion-icon name="checkmark-circle" slot="start" color="success"></ion-icon>
+            <ion-label>優先サポート</ion-label>
+          </ion-item>
+          <ion-item lines="none">
+            <ion-icon name="checkmark-circle" slot="start" color="success"></ion-icon>
+            <ion-label>高度な分析機能</ion-label>
+          </ion-item>
+          <ion-item lines="none">
+            <ion-icon name="checkmark-circle" slot="start" color="success"></ion-icon>
+            <ion-label>チームコラボレーション</ion-label>
+          </ion-item>
+        </ion-list>
+      </ion-card-content>
+      <ion-card-content>
+        <ion-button expand="block" color="primary">今すぐ始める</ion-button>
+      </ion-card-content>
+    </ion-card>
+    
+    <!-- News Card -->
+    <div class="card-section-label">
+      <ion-icon name="newspaper-outline"></ion-icon>
+      <span>NEWS CARD</span>
+    </div>
+    <ion-card>
+      <img alt="News" src="https://ionicframework.com/docs/img/demos/card-media.png" />
+      <ion-card-header>
+        <ion-card-subtitle>テクノロジー · 11月15日</ion-card-subtitle>
+        <ion-card-title>モバイルアプリ開発の新時代</ion-card-title>
+      </ion-card-header>
+      <ion-card-content>
+        クロスプラットフォーム開発がさらに進化。Ionicを使えば、一つのコードベースでiOS、Android、Webアプリを同時に開発できます。
+      </ion-card-content>
+      <ion-item lines="none">
+        <ion-icon name="time-outline" slot="start"></ion-icon>
+        <ion-label>5分で読める</ion-label>
+        <ion-button fill="clear" slot="end">続きを読む</ion-button>
+      </ion-item>
+    </ion-card>
+    
+    <!-- Product Card -->
+    <div class="card-section-label">
+      <ion-icon name="cart-outline"></ion-icon>
+      <span>PRODUCT CARD</span>
+    </div>
+    <ion-card>
+      <img alt="Product" src="https://ionicframework.com/docs/img/demos/card-media.png" />
+      <ion-card-header>
+        <div class="product-header">
+          <div>
+            <ion-card-title>ワイヤレスイヤホン</ion-card-title>
+            <ion-card-subtitle>高音質 · ノイズキャンセリング</ion-card-subtitle>
+          </div>
+          <div class="product-price">¥15,800</div>
+        </div>
+      </ion-card-header>
+      <ion-card-content>
+        <div class="product-rating">
+          <ion-icon name="star" color="warning"></ion-icon>
+          <ion-icon name="star" color="warning"></ion-icon>
+          <ion-icon name="star" color="warning"></ion-icon>
+          <ion-icon name="star" color="warning"></ion-icon>
+          <ion-icon name="star-half" color="warning"></ion-icon>
+          <span class="rating-text">4.5 (128件のレビュー)</span>
+        </div>
+        <p>最新の音響技術を搭載した高品質ワイヤレスイヤホン。長時間の使用でも快適です。</p>
+      </ion-card-content>
+      <ion-card-content class="card-actions">
+        <ion-button expand="block" color="primary">
+          <ion-icon slot="start" name="cart-outline"></ion-icon>
+          カートに追加
+        </ion-button>
+      </ion-card-content>
+    </ion-card>
+    
+    <!-- Notification Card -->
+    <div class="card-section-label">
+      <ion-icon name="notifications-outline"></ion-icon>
+      <span>NOTIFICATION CARD</span>
+    </div>
+    <ion-card color="light">
+      <ion-item color="light" lines="none">
+        <ion-icon name="information-circle" slot="start" color="primary" size="large"></ion-icon>
+        <ion-label>
+          <h2>新機能のお知らせ</h2>
+          <p>アプリに新しい機能が追加されました。設定画面から確認できます。</p>
+        </ion-label>
+        <ion-button fill="clear" slot="end">
+          <ion-icon name="close" slot="icon-only"></ion-icon>
+        </ion-button>
+      </ion-item>
+    </ion-card>
   </div>
 </ion-content>

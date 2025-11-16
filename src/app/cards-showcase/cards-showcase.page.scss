@@ -33,3 +33,51 @@ ion-card-subtitle.card-toggle {
   align-items: center;
   padding: 12px 16px;
 }
+
+// ここから、工夫するやつ
+
+// Action Buttons Card
+.card-actions {
+  display: flex;
+  gap: 4px;
+  padding-top: 0;
+}
+
+// Price Card
+.price-title {
+  font-size: 32px;
+  font-weight: bold;
+  color: var(--ion-color-primary);
+
+  .price-period {
+    font-size: 16px;
+    color: var(--ion-color-medium);
+    font-weight: normal;
+  }
+}
+
+// Product Card
+.product-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+
+  .product-price {
+    font-size: 24px;
+    font-weight: bold;
+    color: var(--ion-color-primary);
+  }
+}
+
+.product-rating {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  margin-bottom: 8px;
+
+  .rating-text {
+    margin-left: 8px;
+    font-size: 14px;
+    color: var(--ion-color-medium);
+  }
+}
