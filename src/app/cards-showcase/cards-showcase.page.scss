@@ -1,19 +1,19 @@
 ion-card {
-  border-radius: 16px;
+  border-radius: 1rem;
 }
 
 .card-section-label {
   display: flex;
   align-items: center;
-  margin: 16px 0 8px 10px;
-  font-size: 11px;
+  margin: 2rem 0 0 1rem;
+  font-size: 0.75rem;
   font-weight: 700;
-  letter-spacing: 1px;
+  letter-spacing: 0.0625rem;
   color: var(--ion-color-medium);
 
   ion-icon {
-    font-size: 16px;
-    margin-right: 8px;
+    font-size: 1rem;
+    margin-right: 0.5rem;
   }
 }
 
@@ -23,7 +23,7 @@ ion-card {
 }
 
 ion-card-content {
-  gap: 16px;
+  gap: 1rem;
 }
 
 ion-card-title.text-toggle {
@@ -35,18 +35,18 @@ ion-card-title.text-toggle {
 // Action Buttons Card
 .card-actions {
   display: flex;
-  gap: 4px;
+  gap: 0.25rem;
   padding-top: 0;
 }
 
 // Price Card
 .price-title {
-  font-size: 32px;
+  font-size: 2rem;
   font-weight: bold;
   color: var(--ion-color-primary);
 
   .price-period {
-    font-size: 16px;
+    font-size: 1rem;
     color: var(--ion-color-medium);
     font-weight: normal;
   }
@@ -59,7 +59,7 @@ ion-card-title.text-toggle {
   align-items: flex-start;
 
   .product-price {
-    font-size: 24px;
+    font-size: 1.5rem;
     font-weight: bold;
     color: var(--ion-color-primary);
   }
@@ -68,26 +68,26 @@ ion-card-title.text-toggle {
 .product-rating {
   display: flex;
   align-items: center;
-  gap: 4px;
-  margin-bottom: 8px;
+  gap: 0.25rem;
+  margin-bottom: 0.5rem;
 
   .rating-text {
-    margin-left: 8px;
-    font-size: 14px;
+    margin-left: 0.5rem;
+    font-size: 0.875rem;
     color: var(--ion-color-medium);
   }
 }
 
 // レスポンシブデザイン：Web版でカード幅を制限
-@media (min-width: 768px) {
+@media (min-width: 48rem) {
   ion-card {
-    max-width: 450px;
+    max-width: 28.125rem;
     margin-left: auto;
     margin-right: auto;
   }
 
   .card-section-label {
-    max-width: 450px;
+    max-width: 28.125rem;
     margin-left: auto;
     margin-right: auto;
   }
