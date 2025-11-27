@@ -8,7 +8,7 @@ ion-card {
   margin: 2rem 0 0 1rem;
   font-size: 0.75rem;
   font-weight: 700;
-  letter-spacing: 0.0625rem;
+  letter-spacing: 0.06rem;
   color: var(--ion-color-medium);
 
   ion-icon {
@@ -75,20 +75,5 @@ ion-card-title.text-toggle {
     margin-left: 0.5rem;
     font-size: 0.875rem;
     color: var(--ion-color-medium);
-  }
-}
-
-// レスポンシブデザイン：Web版でカード幅を制限
-@media (min-width: 48rem) {
-  ion-card {
-    max-width: 28.125rem;
-    margin-left: auto;
-    margin-right: auto;
-  }
-
-  .card-section-label {
-    max-width: 28.125rem;
-    margin-left: auto;
-    margin-right: auto;
   }
 }
